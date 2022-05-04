@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@100;300;500&family=Raleway:wght@300;400;700&family=Roboto:wght@100;300;400;700&family=Varela&display=swap');
+
+body {
+  color: black;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-white {
+background-color: white;
+padding: 40px 0px;
+margin: 24px 0px;
+width: 700px;
+border-radius: 4px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+text-align: center;
+}
+.h1 {
+  color: rgb(206, 151, 176);
+  font-weight: 700;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.h2 {
+  color: rgb(175, 185, 200);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+p {
+  margin-bottom: 24px;
+}
+
+.btn-pink{
+  color: white;
+  font-weight: bold;
+  background-color:rgba(244, 169, 168, 0.9);
+  padding: 8px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn-pink:hover {
+  background-color:rgb(244, 169, 168);
+}
+
+ul {
+  padding: 0px;
+}
+.social {
+  display: inline-block;
+  padding-left: 0px;
+}
+
+.social a {
+  color: rgb(251, 198, 164);
+  font-size: 16px;
+  margin: 8px;
+  font-size: 36px;
+  width: 60px !important;
+}
+
+.social a:hover {
+  color: rgb(231, 182, 151)
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-white {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-white {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-white {
+    width: 300px;
+  }
+}
